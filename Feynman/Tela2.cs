@@ -22,7 +22,7 @@ namespace Feynman
 
         private void btn1_t1_Click(object sender, EventArgs e)
         {
-            
+            /*TELA 1 Gravar*/
             texto1t1 = textBox1.Text;
             MessageBox.Show("Salvo com sucesso. Vamos lá, você consegue !");
             textBox1.Clear();
@@ -131,7 +131,7 @@ namespace Feynman
 
       /*Tela 2 topicos*/
         private void btn1_t2_Click(object sender, EventArgs e)
-        {
+        {/*tela2  Gravar  */
             texto1t2 = text1_t2.Text;
             texto2t2 = text2_t2.Text;
             texto3t2 = text3_t2.Text;
@@ -207,7 +207,7 @@ namespace Feynman
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            /*TELA 1 - QUal assunto deseja dominar*/
         }
 
         private void label2_Click(object sender, EventArgs e)

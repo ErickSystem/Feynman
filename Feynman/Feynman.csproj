@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alunos.Designer.cs">
+      <DependentUpon>Alunos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Alunos.resx">
+      <DependentUpon>Alunos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela1.resx">
       <DependentUpon>Tela1.cs</DependentUpon>
     </EmbeddedResource>

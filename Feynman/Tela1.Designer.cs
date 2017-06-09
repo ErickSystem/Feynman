@@ -36,6 +36,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.bt0 = new System.Windows.Forms.Button();
             this.bt01 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,11 +44,11 @@
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Sitka Subheading", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(5, 16);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(555, 21);
+            this.label1.Size = new System.Drawing.Size(371, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "4 passos para aprender tudo que você quiser,segundo um Nobel da Física Feynman";
+            this.label1.Text = "4 passos para aprender tudo que você quiser. Feynman";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -55,7 +56,7 @@
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 51);
+            this.label2.Location = new System.Drawing.Point(25, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 23);
             this.label2.TabIndex = 1;
@@ -67,7 +68,7 @@
             this.label3.AutoSize = true;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 70);
+            this.label3.Location = new System.Drawing.Point(25, 64);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(392, 23);
             this.label3.TabIndex = 2;
@@ -79,7 +80,7 @@
             this.label4.AutoSize = true;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label4.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(25, 91);
+            this.label4.Location = new System.Drawing.Point(25, 85);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(271, 23);
             this.label4.TabIndex = 3;
@@ -91,7 +92,7 @@
             this.label5.AutoSize = true;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label5.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(25, 114);
+            this.label5.Location = new System.Drawing.Point(25, 108);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(253, 23);
             this.label5.TabIndex = 4;
@@ -103,16 +104,17 @@
             this.label6.AutoSize = true;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(25, 138);
+            this.label6.Location = new System.Drawing.Point(12, 142);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(289, 23);
+            this.label6.Size = new System.Drawing.Size(240, 23);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Iremos abortar um pouco disso, vamos?";
+            this.label6.Text = "Iremos abortar um pouco disso...";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // bt0
             // 
-            this.bt0.Location = new System.Drawing.Point(39, 180);
+            this.bt0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt0.Location = new System.Drawing.Point(12, 180);
             this.bt0.Name = "bt0";
             this.bt0.Size = new System.Drawing.Size(110, 56);
             this.bt0.TabIndex = 6;
@@ -122,7 +124,8 @@
             // 
             // bt01
             // 
-            this.bt01.Location = new System.Drawing.Point(249, 180);
+            this.bt01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt01.Location = new System.Drawing.Point(296, 180);
             this.bt01.Name = "bt01";
             this.bt01.Size = new System.Drawing.Size(110, 56);
             this.bt01.TabIndex = 7;
@@ -130,11 +133,22 @@
             this.bt01.UseVisualStyleBackColor = true;
             this.bt01.Click += new System.EventHandler(this.bt01_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(156, 226);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "ALUNOS";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Tela1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 261);
+            this.ClientSize = new System.Drawing.Size(418, 261);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bt01);
             this.Controls.Add(this.bt0);
             this.Controls.Add(this.label6);
@@ -143,8 +157,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Tela1";
-            this.Text = "Tela1";
+            this.Text = "Feynman";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,5 +176,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button bt0;
         private System.Windows.Forms.Button bt01;
+        private System.Windows.Forms.Button button1;
     }
 }

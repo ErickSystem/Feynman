@@ -29,22 +29,22 @@ namespace Feynman
 
         private void label3_Click(object sender, EventArgs e)
         {
-            label3.Text = "";
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            label4.Text = "3) Volte no tema e pesquise sobre ele";
+            
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-            label5.Text = "4) Revise e simplifique ainda mais";
+            
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
-            label6.Text = "3) Volte no tema e pesquise sobre ele";
+            
         }
 
         private void bt01_Click(object sender, EventArgs e)
@@ -57,21 +57,17 @@ namespace Feynman
             
                 Tela2 frms = new Tela2();
                 frms.ShowDialog();
-            
+            this.Hide();
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Alunos frms = new Alunos();
+            frms.ShowDialog();
         }
     }
 }
 
 
-/*
-
-4 passos para aprender tudo que você quiser,
-segundo um Nobel da Física  Richard Feynman (1918-1988), 
-
-1) Escolha um conceito
-2) Escreva-o como se estivesse ensinando uma criança
-3) Volte no tema e pesquise sobre ele
-4) Revise e simplifique ainda mais
-
-Iremos abortar um pouco disso, vamos?
-*/

@@ -138,6 +138,7 @@
             // text4_t2
             // 
             this.text4_t2.Location = new System.Drawing.Point(96, 167);
+            this.text4_t2.MaxLength = 20;
             this.text4_t2.Name = "text4_t2";
             this.text4_t2.Size = new System.Drawing.Size(382, 20);
             this.text4_t2.TabIndex = 14;
@@ -147,6 +148,7 @@
             // text3_t2
             // 
             this.text3_t2.Location = new System.Drawing.Point(96, 132);
+            this.text3_t2.MaxLength = 20;
             this.text3_t2.Name = "text3_t2";
             this.text3_t2.Size = new System.Drawing.Size(382, 20);
             this.text3_t2.TabIndex = 13;
@@ -156,6 +158,7 @@
             // text2_t2
             // 
             this.text2_t2.Location = new System.Drawing.Point(96, 97);
+            this.text2_t2.MaxLength = 20;
             this.text2_t2.Name = "text2_t2";
             this.text2_t2.Size = new System.Drawing.Size(382, 20);
             this.text2_t2.TabIndex = 12;
@@ -166,6 +169,7 @@
             // text1_t2
             // 
             this.text1_t2.Location = new System.Drawing.Point(96, 64);
+            this.text1_t2.MaxLength = 20;
             this.text1_t2.Name = "text1_t2";
             this.text1_t2.Size = new System.Drawing.Size(382, 20);
             this.text1_t2.TabIndex = 11;
@@ -190,7 +194,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(313, 218);
+            this.label3.Location = new System.Drawing.Point(67, 221);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 33);
             this.label3.TabIndex = 22;
@@ -237,7 +241,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(206, 221);
+            this.label5.Location = new System.Drawing.Point(67, 221);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 37);
             this.label5.TabIndex = 23;
@@ -279,7 +283,7 @@
             // 
             this.lb57.AutoSize = true;
             this.lb57.BackColor = System.Drawing.Color.Black;
-            this.lb57.ForeColor = System.Drawing.Color.White;
+            this.lb57.ForeColor = System.Drawing.Color.Maroon;
             this.lb57.Location = new System.Drawing.Point(47, 212);
             this.lb57.Name = "lb57";
             this.lb57.Size = new System.Drawing.Size(0, 13);
@@ -291,7 +295,7 @@
             // 
             this.lb56.AutoSize = true;
             this.lb56.BackColor = System.Drawing.Color.Black;
-            this.lb56.ForeColor = System.Drawing.Color.White;
+            this.lb56.ForeColor = System.Drawing.Color.Maroon;
             this.lb56.Location = new System.Drawing.Point(47, 188);
             this.lb56.Name = "lb56";
             this.lb56.Size = new System.Drawing.Size(0, 13);
@@ -303,7 +307,7 @@
             // 
             this.lb55.AutoSize = true;
             this.lb55.BackColor = System.Drawing.Color.Black;
-            this.lb55.ForeColor = System.Drawing.Color.White;
+            this.lb55.ForeColor = System.Drawing.Color.Maroon;
             this.lb55.Location = new System.Drawing.Point(47, 164);
             this.lb55.Name = "lb55";
             this.lb55.Size = new System.Drawing.Size(0, 13);
@@ -315,7 +319,7 @@
             // 
             this.lb54.AutoSize = true;
             this.lb54.BackColor = System.Drawing.Color.Black;
-            this.lb54.ForeColor = System.Drawing.Color.White;
+            this.lb54.ForeColor = System.Drawing.Color.Maroon;
             this.lb54.Location = new System.Drawing.Point(47, 134);
             this.lb54.Name = "lb54";
             this.lb54.Size = new System.Drawing.Size(0, 13);
@@ -327,10 +331,11 @@
             // 
             this.lb53.AutoSize = true;
             this.lb53.BackColor = System.Drawing.Color.Black;
+            this.lb53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb53.ForeColor = System.Drawing.Color.White;
-            this.lb53.Location = new System.Drawing.Point(47, 100);
+            this.lb53.Location = new System.Drawing.Point(28, 63);
             this.lb53.Name = "lb53";
-            this.lb53.Size = new System.Drawing.Size(48, 13);
+            this.lb53.Size = new System.Drawing.Size(76, 20);
             this.lb53.TabIndex = 30;
             this.lb53.Text = "Topicos:";
             this.lb53.Visible = false;
@@ -339,8 +344,8 @@
             // lb52
             // 
             this.lb52.AutoSize = true;
-            this.lb52.ForeColor = System.Drawing.Color.White;
-            this.lb52.Location = new System.Drawing.Point(47, 62);
+            this.lb52.ForeColor = System.Drawing.Color.Maroon;
+            this.lb52.Location = new System.Drawing.Point(276, 32);
             this.lb52.Name = "lb52";
             this.lb52.Size = new System.Drawing.Size(0, 13);
             this.lb52.TabIndex = 29;
@@ -350,11 +355,11 @@
             // lb51
             // 
             this.lb51.AutoSize = true;
-            this.lb51.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb51.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb51.ForeColor = System.Drawing.Color.White;
-            this.lb51.Location = new System.Drawing.Point(47, 23);
+            this.lb51.Location = new System.Drawing.Point(24, 16);
             this.lb51.Name = "lb51";
-            this.lb51.Size = new System.Drawing.Size(131, 18);
+            this.lb51.Size = new System.Drawing.Size(252, 37);
             this.lb51.TabIndex = 28;
             this.lb51.Text = "Assunto estudado:";
             this.lb51.Visible = false;
